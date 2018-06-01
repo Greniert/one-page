@@ -1,0 +1,120 @@
+/*general*/
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+
+}
+
+body *{
+  border: 2px solid yellow;
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+p{
+
+}
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+/*header*/
+.headerbackground{
+width: 100%;
+height: 25em;
+background-image: url(../img/header.jpg);
+}
+
+.main_title{
+  position: absolute;
+  top: 5em;
+  text-align:center;
+}
+
+nav{
+  top: 24em;
+  height: 70px;
+  background-color: #e50909;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0px 10px 5px 0px #656565;
+  text-align: center;
+}
+
+
+
+ul{
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+
+}
+
+nav ul li{
+
+  height: 70px;
+  padding: 0 0.5em;
+  border: 1px #fff solid;
+  border-top: hidden;
+  border-bottom: hidden;
+  text-align: center;
+
+
+
+}
+
+nav ul li a{
+	font-size: 22px;
+	color: #fff;
+
+}
+
+nav ul li:hover a{
+  background-color: #fff;
+    color: #000;
+}
+
+nav ul li a:hover{
+
+
+}
+
+/*l'équipe*/
+
+.contenu{
+  margin-top: 7em;
+  margin-left: 7%;
+}
+
+.titre{
+  display: inline-flex;
+  height: 6em;
+}
+
+.titre h2{
+  margin-top: 0.7em;
+  margin-left: 0.2em;
+}
+
+/*map*/
+
+/*contact*/
+
+/*footer*/
