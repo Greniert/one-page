@@ -1,15 +1,27 @@
-/*general*/
+/*--------------------------------------------------------------general*/
 *{
 margin: 0;
 padding: 0;
 }
 
+html{
+font-size: 62.5%;
+}
 body{
 
 }
 
-body *{
+/*body *{
   border: 2px solid yellow;
+}*/
+
+section{
+  margin-bottom: 30px;
+}
+
+.contenu{
+  width: 77%;
+  margin: 9em auto 0;
 }
 
 h1{
@@ -17,14 +29,22 @@ h1{
 }
 
 h2{
-
+	 font-size: 3.6rem;
+	 margin: auto 0;
 }
 
 h3{
+  font-size: 2.2rem;
+  font-weight: bold;
+}
 
+h4{
+  font-size: 1.6rem;
 }
 
 p{
+  font-size: 1.6rem;
+  margin:1.7em 0;
 
 }
 a{
@@ -35,7 +55,12 @@ li{
   list-style: none;
 }
 
-/*header*/
+.titre i{
+font-size: 40px;
+color: #e50909;
+}
+
+/*--------------------------------------------------------------header*/
 .headerbackground{
 width: 100%;
 height: 25em;
@@ -77,13 +102,13 @@ nav ul li{
   text-align: center;
 
 
-
 }
 
 nav ul li a{
 	font-size: 22px;
 	color: #fff;
-
+  align-items: center;
+  margin: 10px;
 }
 
 nav ul li:hover a{
@@ -96,12 +121,7 @@ nav ul li a:hover{
 
 }
 
-/*l'équipe*/
-
-.contenu{
-  margin-top: 7em;
-  margin-left: 7%;
-}
+/*--------------------------------------------------------------l'équipe*/
 
 .titre{
   display: inline-flex;
@@ -109,12 +129,106 @@ nav ul li a:hover{
 }
 
 .titre h2{
-  margin-top: 0.7em;
-  margin-left: 0.2em;
+    margin-left: 0.2em;
 }
 
-/*map*/
+.membre{
+	width: 150px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
 
-/*contact*/
+.allteam{
+	display: flex;
+	flex-wrap: wrap;
+}
 
-/*footer*/
+/*--------------------------------------------------------------map*/
+
+
+
+/*--------------------------------------------------------------contact*/
+
+
+.contenu2{
+  width: 77%;
+  margin: 2em auto 0;
+}
+
+form{
+width: 38em;
+padding: 20px;
+display: flex;
+flex-direction: column;
+
+
+}
+
+.formulaire{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.field input{
+  float: right;
+  background-color: inherit;
+  width: 80%;
+  height: 3em;
+  border: none;
+}
+
+.field{
+  width: 100%;
+  height: 5em;
+  margin: 10px 10px;
+  border: 1px grey solid;
+}
+
+.textarea{
+  margin: 10px;
+  width: 100%;
+  height: 10em;
+  border: 1px grey solid;
+}
+
+textarea{
+  margin-top: 10px;
+  width: 80%;
+  height: 7em;
+  resize: none;
+  border: none;
+  float: right;
+}
+
+.button {
+  margin: auto;
+  width: 160px;
+  height: 55px;
+  background-color: #e50909;
+  border-radius: 5px;
+  color: #fff;
+
+}
+
+form i {
+  margin: 15px 20px;
+  font-size: 20px;
+}
+
+/*--------------------------------------------------------------footer*/
+
+footer{
+  background-color: #910e00;
+  height: 150px;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+}
+
+footer i{
+  color: #fff;
+  font-size: 40px;
+  margin: 50px 15px;
+}
